@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Oleo+Script:wght@700&family=Patrick+Hand&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+* {
+padding:0;
+margin:0;
+box-sizing: border-box;
+background-color: rgb(237, 103, 237);
+background-image: url(../img/fondoprincipal.jpg);
+}
+
+.enlaces-lecturas{
+    padding: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
+a {
+    
+    padding:0 50px 0 50px;
+    background-color: rgb(157, 84, 252);
+    color: black;
+}
+
+h2 {
+text-align: center;
+font-size: 70px;
+padding-bottom: 100px;
+font-family: 'abril fatface';
+background-image: url(../img/fondoprincipal.jpg);
+background-size: contain;
+color: rgb(157, 84, 252);
+-webkit-text-stroke:0.5px #000;
+}
+
+h3 {
+text-align: center;
+font-size: 35px;
+color: rgb(157, 84, 252);
+-webkit-text-stroke:0.5px #000;
+}
+
+p {
+    font-size: 50px;
+    color: rgb(148, 31, 195);
+    -webkit-text-stroke:1px #000;
+}
+
+div {
+    margin: 500px;
+}
+
+
+.div-arcanosmayores {
+    display:inline-block;
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+}
+
+.div-arcanosmenores {
+    display:inline-block;
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+    margin-left: 230px;
+    
+}
+
+.div-tarotegipcio{
+    display:inline-block;
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+}
+
+.div-tarot-terapeutico {
+    display:inline-block;
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+    margin-left: 230px;
+    
+}
+
+footer {
+    font-size: 40px;
+    text-align: right;
+}

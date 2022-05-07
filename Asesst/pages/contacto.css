@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Oleo+Script:wght@700&family=Patrick+Hand&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+* {
+padding:0;
+margin:0;
+box-sizing: border-box;
+
+background-image: url(../img/fondoprincipal.jpg);
+}
+
+.enlaces-contacto{
+    padding: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
+a {
+    
+    padding:0 50px 0 50px;
+    background-color: rgb(157, 84, 252);
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 100px;
+    font-family: 'abril fatface';
+    background-image: url(../img/fondoprincipal.jpg);
+    background-size: cover;
+    color: rgb(157, 84, 252);
+    -webkit-text-stroke:0.5px #000;
+    }
+
+form {
+font-size:30px;
+
+
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 5px solid rgb(66, 138, 248);
+    padding: 30px;
+    margin: 30px;
+    background-color: #000;
+    color: #fff;
+    display:block;
+}
+
+label {
+    
+    display: block
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.enlaces-redes img {
+    width: 230px;
+    height: 200px;
+}
+
+textarea {
+    resize: none;
+    font-size: 30px;
+    color: rgb(96, 152, 255);
+    border: 5px solid rgb(66, 138, 248);
+}
+
+footer {
+    font-size: 40px;
+    text-align: right;
+    margin-top:100px ;
+}
+
+.enviar-boton {
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    border: 5px solid rgb(66, 138, 248);
+}

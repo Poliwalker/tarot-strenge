@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Oleo+Script:wght@700&family=Patrick+Hand&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: rgb(237, 103, 237);
+}
+
+.enlaces-paginas {
+    padding: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    background-image: url(./Asesst/img/banner.jpg);
+    background-position: center;
+    background-size: auto;
+
+   
+}
+
+a {
+    padding:0 50px 0 50px;
+    background-color: rgb(157, 84, 252);
+    color: black;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 100px;
+    font-family: 'abril fatface';
+    background-image: url(./Asesst/img/fondoprincipal.jpg);
+    background-size: contain;
+    color: rgb(157, 84, 252);
+    -webkit-text-stroke:0.5px #000;
+    
+
+}
+
+h2 {
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: 'source code pro';
+    background-image: url(./Asesst/img/fondoprincipal.jpg);
+    background-size: contain;
+    color: rgb(157, 84, 252);
+    -webkit-text-stroke:2px #000;
+}
+
+
+p {
+    text-align: justify;
+    font-size: 50px;
+    padding:300px;
+    background-image: url(./Asesst/img/fondoprincipal.jpg);
+    color: rgb(148, 31, 195);
+    -webkit-text-stroke:1px #000;
+}
+
+footer {
+    font-size: 40px;
+    text-align: right;
+}
