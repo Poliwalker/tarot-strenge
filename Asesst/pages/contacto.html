@@ -23,29 +23,43 @@
 	<form>
 		<img src="../img/Consultantetarot.jpg" alt="consulta" class="img-tarotista">
 
-		<label for="nombre">Nombre:</label>
+		<div>
+			<label for="nombre">Nombre:</label>
 		<input type="text" id="nombre" placeholder="ingrese su nombre" required>
+		</div>
 	
-		<label for="apellido">Apellido:</label>
+		<div>
+			<label for="apellido">Apellido:</label>
 		<input type="text" id="apellido" placeholder="ingrese su apellido" required>
+		</div>
 	
+		<div>
 		<label for="email">Email</label>
 		<input type="email" name="email" id="email" placeholder="ingrese su correo" required>
+		</div>
 	
-		<label for="edad">Edad:</label>
+		<div>
+			<label for="edad">Edad:</label>
 		<input type="number" id="edad" placeholder="ingrese su edad" required>
-		 
-		<label for="primeravez">Es su primera consulta:</label>
+		</div>
+
+		<div class="input-radio">
+			Es su primera consulta:
 		<input type="radio" id="primeravez" name="siono" required >
 		<label for="primeravez">Si</label>
 		<input type="radio" id="primeravez" name="siono"required >
 		<label for="primeravez">No</label>
+		</div>
 	
-		<input type="checkbox" name="checkbox" id="acepto" required class="checkbox-input">
+		<div class="div-checkbox">
+		<input type="checkbox" name="checkbox" id="acepto"  class="input-checkbox">
 		<label for="acepto">Esta de acuerdo que le enviemos mail con mas información</label>
+		</div>
 	
-		<textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Ingrese su consulta"></textarea>
+		<div>
+			<textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Ingrese su consulta"></textarea>
 		<label for="consulta">Consulta</label>
+		</div>
 
 		<input type="submit" class="enviar-boton">
 	</form>

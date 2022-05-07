@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Oleo+Script:wght@700&family=Patrick+Hand&family=Source+Code+Pro:ital,wght@1,600&display=swap');
 
-* {
+*{
 padding:0;
 margin:0;
 box-sizing: border-box;
-
-background-image: url(../img/fondoprincipal.jpg);
 }
 
+
+body{
+    background-image: url(../img/fondoprincipal.jpg);
+
+}
 .enlaces-contacto{
     padding: 50px;
     margin-bottom: 40px;
@@ -19,7 +22,6 @@ background-image: url(../img/fondoprincipal.jpg);
 }
 
 a {
-    
     padding:0 50px 0 50px;
     background-color: rgb(157, 84, 252);
     color: black;
@@ -35,30 +37,46 @@ h2 {
     color: rgb(157, 84, 252);
     -webkit-text-stroke:0.5px #000;
     }
-
-form {
-font-size:30px;
-
-
-}
-
 input {
-    width: 500px;
+    width: 300px;
     height: 30px;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 10px;
     border: 5px solid rgb(66, 138, 248);
     padding: 30px;
-    margin: 30px;
     background-color: #000;
     color: #fff;
-    display:block;
+    margin: 20px 20px 20px;
+        
 }
-
-label {
     
-    display: block
-}
+    
+
+    label {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .input-radio {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .div-checkbox {
+    margin: 10px;
+    }
+
+    .input-checkbox {
+        
+    }
+
+    .enviar-boton {
+        width: 200px;
+        height: 10px;
+        border-radius: 5px;
+        border: 5px solid rgb(66, 138, 248);
+    }
+
 
 h3 {
     font-size: 50px;
@@ -76,6 +94,7 @@ textarea {
     font-size: 30px;
     color: rgb(96, 152, 255);
     border: 5px solid rgb(66, 138, 248);
+    margin-top: 50px;
 }
 
 footer {
@@ -84,9 +103,4 @@ footer {
     margin-top:100px ;
 }
 
-.enviar-boton {
-    width: 200px;
-    height: 10px;
-    border-radius: 5px;
-    border: 5px solid rgb(66, 138, 248);
-}
+
